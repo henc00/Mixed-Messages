@@ -27,3 +27,9 @@ for (const prop in messages) {
             personalMessage.push('There is not enough info.');
     }
 }
+
+const displayMessage = arr => {
+    console.log(arr.join('\n'));
+}
+
+displayMessage(personalMessage);
